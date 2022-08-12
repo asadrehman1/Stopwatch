@@ -19,6 +19,7 @@ start.addEventListener("click",function(){
      }
      else{
         mCount=0;
+        milliSecond.innerText=`0${mCount}`;
         sCount++;
         if(sCount<10){
             second.innerText=`0${sCount}`;
