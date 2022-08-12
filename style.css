@@ -30,3 +30,9 @@ h1 span{
     margin-bottom: -10px;
     font-size: 40px;
 }
+@media(max-width:367px){
+    .btn{
+        padding: 10px 25px;
+        margin: 0;
+    }
+}
